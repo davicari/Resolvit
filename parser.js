@@ -26,7 +26,7 @@ var parser = require('./node_modules/AnalizadorTexto/analizador.js');
 		
 		fs.writeFile(filePathOut,JSON.stringify(jsonData,null,"\t"),'utf8',(err) => {
 		  if (err) throw err;
-		  console.log('The file '+fileOutputR+' has been saved!');
+		  console.log('The file '+fileOutput+' has been saved!');
 		});
 				
     } else {

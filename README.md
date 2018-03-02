@@ -1,8 +1,8 @@
 # Resolvit
 This is a test application in order to parse some text and get a JSON print. To use this application, you must.
-1) Install NodeJS for your OS
-2) Download this files to your computer
-3) Open the command prompt in that folder, and type: node parser.js, in order to convert the file input.txt to output.json file by default, and: node parser.js input.file output.file in order to conver other two files in the same folder.
+1) Install NodeJS for your OS.
+2) Download the files in the master branch of this repository to yours computer's favourite folder.
+3) Open the command prompt in that folder, and type: node parser.js, in order to convert the file input.txt to output.json file by default, and: node parser.js input.file output.file in ordert to conver other two files in the same folder.
 
 input.txt content:
 Take this paragraph of text and return an alphabetized list of ALL unique words.  A unique word is any form of a word often communicated with essentially the same meaning. For example, fish and fishes could be defined as a unique word by using their stem fish. For each unique word found in this entire paragraph, determine the how many times the word appears in total. Also, provide an analysis of what unique sentence index position or positions the word is found. The following words should not be included in your analysis or result set: "a", "the", "and", "of", "in", "be", "also" and "as".  Your final result MUST be displayed in a readable console output in the same format as the JSON sample object shown below.
